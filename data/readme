@@ -1,0 +1,13 @@
+Data folder
+
+Observations
+|__ WMO observations - apatity_0128_0131.xlsx - from rp5
+|__ ibutton observations - RU name with .csv
+|__ new sensors - corrected_sensors.csv
+
+Model data
+|__ varname_urb.npy - modelled surface variable from WRF WITH city as a numpy array. 30 minute data from 00:00 29.01.2024 UTC+3 to 21:00 31.01.2024 UTC+3
+|__ varname_nourb.npy - modelled surface variable from WRF WITHOUT city as a numpy array. 30 minute data from 00:00 29.01.2024 UTC+3 to 21:00 31.01.2024 UTC+3
+|__ lcc_urb.npy - modelled low cloud cover from WRF WITH city as a numpy array. 60 minute data from 03:00 28.01.2024 UTC+3 to 00:00 01.02.2024 UTC+3
+|__ tcc_urb.npy - modelled total cloud cover from WRF WITH city as a numpy array. 60 minute data from 03:00 28.01.2024 UTC+3 to 00:00 01.02.2024 UTC+3
+same data parameters for lcc_nourb, tcc_nourb, except WITHOUT city
